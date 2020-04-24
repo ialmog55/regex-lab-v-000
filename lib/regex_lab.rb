@@ -30,5 +30,11 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
+  array=phone.scan(/\d/)
+If array.length == 10
+return true
+else
+  false
+end
 
 end
